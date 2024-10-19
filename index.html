@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Real-Time Weather Monitoring</h1>
+    </header>
+
+    <main>
+        <div class="weather-summary">
+            <h2>Weather Data</h2>
+            <table id="weatherTable">
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Main</th>
+                        <th>Temp (°C)</th>
+                        <th>Feels Like (°C)</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+ <!-- Weather data will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="alerts">
+            <h2>Alerts</h2>
+            <div id="alertsBox">          
+        <!-- Alerts will be dynamically inserted here -->
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
